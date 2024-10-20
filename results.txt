@@ -1,0 +1,201 @@
+---- Pattern 1: Run 1 ----
+Starting pattern 1 with 7 processes...
+Parent: created child 1 (PID: 34498)
+Process 1 (PID: 34498) beginning
+Parent: created child 2 (PID: 34499)
+Process 2 (PID: 34499) beginning
+Parent: created child 3 (PID: 34500)
+Process 3 (PID: 34500) beginning
+Parent: created child 4 (PID: 34501)
+Process 4 (PID: 34501) beginning
+Parent: created child 5 (PID: 34502)
+Process 5 (PID: 34502) beginning
+Parent: created child 6 (PID: 34503)
+Process 6 (PID: 34503) beginning
+Parent: created child 7 (PID: 34504)
+Process 7 (PID: 34504) beginning
+Process 1 (PID: 34498) exiting after 6 seconds
+Process 2 (PID: 34499) exiting after 6 seconds
+Process 4 (PID: 34501) exiting after 6 seconds
+Process 6 (PID: 34503) exiting after 6 seconds
+Process 5 (PID: 34502) exiting after 6 seconds
+Process 3 (PID: 34500) exiting after 6 seconds
+Process 7 (PID: 34504) exiting after 6 seconds
+All processes have completed.
+
+---- Pattern 1: Run 2 ----
+Starting pattern 1 with 7 processes...
+Parent: created child 1 (PID: 35128)
+Process 1 (PID: 35128) beginning
+Parent: created child 2 (PID: 35129)
+Process 2 (PID: 35129) beginning
+Parent: created child 3 (PID: 35130)
+Process 3 (PID: 35130) beginning
+Parent: created child 4 (PID: 35131)
+Process 4 (PID: 35131) beginning
+Parent: created child 5 (PID: 35132)
+Process 5 (PID: 35132) beginning
+Parent: created child 6 (PID: 35133)
+Process 6 (PID: 35133) beginning
+Parent: created child 7 (PID: 35134)
+Process 7 (PID: 35134) beginning
+Process 2 (PID: 35129) exiting after 6 seconds
+Process 1 (PID: 35128) exiting after 6 seconds
+Process 3 (PID: 35130) exiting after 6 seconds
+Process 6 (PID: 35133) exiting after 6 seconds
+Process 4 (PID: 35131) exiting after 6 seconds
+Process 5 (PID: 35132) exiting after 6 seconds
+Process 7 (PID: 35134) exiting after 6 seconds
+All processes have completed.
+
+---- Pattern 1: Run 3 ----
+Starting pattern 1 with 7 processes...
+Parent: created child 1 (PID: 35548)
+Process 1 (PID: 35548) beginning
+Parent: created child 2 (PID: 35549)
+Process 2 (PID: 35549) beginning
+Parent: created child 3 (PID: 35550)
+Process 3 (PID: 35550) beginning
+Parent: created child 4 (PID: 35551)
+Process 4 (PID: 35551) beginning
+Parent: created child 5 (PID: 35552)
+Process 5 (PID: 35552) beginning
+Parent: created child 6 (PID: 35553)
+Process 6 (PID: 35553) beginning
+Parent: created child 7 (PID: 35554)
+Process 7 (PID: 35554) beginning
+Process 1 (PID: 35548) exiting after 6 seconds
+Process 2 (PID: 35549) exiting after 6 seconds
+Process 3 (PID: 35550) exiting after 6 seconds
+Process 5 (PID: 35552) exiting after 6 seconds
+Process 4 (PID: 35551) exiting after 6 seconds
+Process 6 (PID: 35553) exiting after 6 seconds
+Process 7 (PID: 35554) exiting after 6 seconds
+All processes have completed.
+
+---- Pattern 2: Run 1 ----
+Starting pattern 2 with 7 processes...
+Parent: created child 1 (PID: 36228)
+Process 1 (PID: 36228) beginning
+Process 1 (PID: 36228) exiting after 1 seconds
+Parent: created child 2 (PID: 36239)
+Process 2 (PID: 36239) beginning
+Process 2 (PID: 36239) exiting after 1 seconds
+Parent: created child 3 (PID: 36244)
+Process 3 (PID: 36244) beginning
+Process 3 (PID: 36244) exiting after 1 seconds
+Parent: created child 4 (PID: 36256)
+Process 4 (PID: 36256) beginning
+Process 4 (PID: 36256) exiting after 1 seconds
+Parent: created child 5 (PID: 36261)
+Process 5 (PID: 36261) beginning
+Process 5 (PID: 36261) exiting after 1 seconds
+Parent: created child 6 (PID: 36273)
+Process 6 (PID: 36273) beginning
+Process 6 (PID: 36273) exiting after 1 seconds
+Parent: created child 7 (PID: 36278)
+Process 7 (PID: 36278) beginning
+Process 7 (PID: 36278) exiting after 1 seconds
+All children have exited.
+
+---- Pattern 2: Run 2 ----
+Starting pattern 2 with 7 processes...
+Parent: created child 1 (PID: 37257)
+Process 1 (PID: 37257) beginning
+Process 1 (PID: 37257) exiting after 5 seconds
+Parent: created child 2 (PID: 37297)
+Process 2 (PID: 37297) beginning
+Process 2 (PID: 37297) exiting after 5 seconds
+Parent: created child 3 (PID: 37341)
+Process 3 (PID: 37341) beginning
+Process 3 (PID: 37341) exiting after 5 seconds
+Process 4 (PID: 37375) beginning
+Parent: created child 4 (PID: 37375)
+Process 4 (PID: 37375) exiting after 5 seconds
+Parent: created child 5 (PID: 37414)
+Process 5 (PID: 37414) beginning
+Process 5 (PID: 37414) exiting after 5 seconds
+Parent: created child 6 (PID: 37448)
+Process 6 (PID: 37448) beginning
+Process 6 (PID: 37448) exiting after 5 seconds
+Parent: created child 7 (PID: 37482)
+Process 7 (PID: 37482) beginning
+Process 7 (PID: 37482) exiting after 5 seconds
+All children have exited.
+
+---- Pattern 2: Run 3 ----
+Starting pattern 2 with 7 processes...
+Parent: created child 1 (PID: 37662)
+Process 1 (PID: 37662) beginning
+Process 1 (PID: 37662) exiting after 8 seconds
+Starting pattern 2 with 7 processes...
+Parent: created child 1 (PID: 37662)
+Process 1 (PID: 37662) beginning
+Process 1 (PID: 37662) exiting after 8 seconds
+Process 1 (PID: 37662) exiting after 8 seconds
+Parent: created child 2 (PID: 37727)
+Process 2 (PID: 37727) beginning
+Process 2 (PID: 37727) exiting after 8 seconds
+Parent: created child 3 (PID: 37784)
+Parent: created child 3 (PID: 37784)
+Process 3 (PID: 37784) beginning
+Process 3 (PID: 37784) exiting after 8 seconds
+Parent: created child 4 (PID: 37845)
+Process 4 (PID: 37845) beginning
+Process 4 (PID: 37845) exiting after 8 seconds
+Parent: created child 5 (PID: 37904)
+Process 5 (PID: 37904) beginning
+Process 5 (PID: 37904) exiting after 8 seconds
+Parent: created child 6 (PID: 37966)
+Process 6 (PID: 37966) beginning
+Process 6 (PID: 37966) exiting after 8 seconds
+Parent: created child 7 (PID: 38025)
+Process 7 (PID: 38025) beginning
+Process 7 (PID: 38025) exiting after 8 seconds
+All children have exited.
+
+---- Pattern 3: Run 1 ----
+Starting pattern 3 with 8 processes...
+Process 1 (PID: 40489) beginning
+Process 1 (PID: 40489) creating Process 2
+Process 2 (PID: 40494) beginning
+Process 2 (PID: 40494) creating Process 4
+Process 4 (PID: 40525) beginning
+Process 4 (PID: 40525) exiting after 5 seconds
+Process 2 (PID: 40494) creating Process 5
+Process 5 (PID: 40565) beginning
+Process 5 (PID: 40565) exiting after 5 seconds
+Process 2 (PID: 40494) exiting after 4 seconds
+Process 1 (PID: 40489) exiting after 1 seconds
+All children have exited.
+
+---- Pattern 3: Run 2 ----
+Starting pattern 3 with 8 processes...
+Process 1 (PID: 42302) beginning
+Process 1 (PID: 42302) creating Process 2
+Process 2 (PID: 42347) beginning
+Process 2 (PID: 42347) creating Process 4
+Process 4 (PID: 42371) beginning
+Process 4 (PID: 42371) exiting after 4 seconds
+Process 2 (PID: 42347) creating Process 5
+Process 5 (PID: 42399) beginning
+Process 5 (PID: 42399) exiting after 4 seconds
+Process 2 (PID: 42347) exiting after 4 seconds
+Process 1 (PID: 42302) exiting after 6 seconds
+All children have exited.
+
+---- Pattern 3: Run 3 ----
+Starting pattern 3 with 8 processes...
+Process 1 (PID: 43511) beginning
+Process 1 (PID: 43511) creating Process 2
+Process 2 (PID: 43526) beginning
+Process 2 (PID: 43526) creating Process 4
+Process 4 (PID: 43557) beginning
+Process 4 (PID: 43557) exiting after 3 seconds
+Process 2 (PID: 43526) creating Process 5
+Process 5 (PID: 43578) beginning
+Process 5 (PID: 43578) exiting after 3 seconds
+Process 2 (PID: 43526) exiting after 4 seconds
+Process 1 (PID: 43511) exiting after 2 seconds
+All children have exited.
+
