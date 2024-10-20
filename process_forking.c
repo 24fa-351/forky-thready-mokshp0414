@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    srand(time(NULL)); // Seed for random number generation
+    srand(time(NULL));
 
     switch (patternNum)
     {
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
         pattern2(numThings);
         break;
     case 3:
-        pattern3(numThings, 1); // Start with process number 1
+        pattern3(numThings, 1);
         break;
     default:
         fprintf(stderr, "Invalid pattern number.\n");
@@ -62,7 +62,8 @@ void pattern1(int n)
         else if (pid == 0)
         {
             // Child process
-            int sleep_time = rand() % 8 + 1; // Sleep for 1-8 seconds
+            // Sleep for 1-8 seconds
+            int sleep_time = rand() % 8 + 1;
             printf("Process %d (PID: %d) beginning\n", i + 1, getpid());
             sleep(sleep_time);
             printf("Process %d (PID: %d) exiting after %d seconds\n", i + 1, getpid(), sleep_time);
@@ -73,7 +74,7 @@ void pattern1(int n)
 
     for (int i = 0; i < n; i++)
     {
-        wait(NULL); // Wait for all child processes to finish
+        wait(NULL);
     }
 
     printf("All processes have completed.\n");
@@ -94,7 +95,8 @@ void pattern2(int n)
         else if (pid == 0)
         {
             // Child process
-            int sleep_time = rand() % 8 + 1; // Sleep for 1-8 seconds
+            // Sleep for 1-8 seconds
+            int sleep_time = rand() % 8 + 1; 
             printf("Process %d (PID: %d) beginning\n", i + 1, getpid());
             sleep(sleep_time);
             printf("Process %d (PID: %d) exiting after %d seconds\n", i + 1, getpid(), sleep_time);
@@ -102,9 +104,9 @@ void pattern2(int n)
         }
         else
         {
-            // Parent process
+            
             printf("Parent: created child %d (PID: %d)\n", i + 1, pid);
-            wait(NULL); // Wait for the child to finish
+            wait(NULL);
         }
     }
 
@@ -114,7 +116,7 @@ void pattern2(int n)
 void pattern3(int n, int current)
 {
     if (current > n)
-        return; // Stop if current exceeds the number of things
+        return; 
 
     pid_t pid = fork();
 
@@ -126,16 +128,16 @@ void pattern3(int n, int current)
     else if (pid == 0)
     {
         // Child process
-        int sleep_time = rand() % 8 + 1; // Sleep for 1-8 seconds
+        // Sleep for 1-8 seconds
+        int sleep_time = rand() % 8 + 1; 
         printf("Process %d (PID: %d) beginning\n", current, getpid());
         sleep(sleep_time);
 
-        // Logic for creating further processes based on the fork tree structure
         if (current == 1)
         {
             // Create child process 2
             printf("Process %d (PID: %d) creating Process 2\n", current, getpid());
-            pattern3(n, 2); // Call for the next process in the pattern (2)
+            pattern3(n, 2); // Call for the next process
         }
         if (current == 2)
         {
